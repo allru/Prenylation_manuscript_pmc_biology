@@ -1,0 +1,60 @@
+SELECT ?primaryAccession
+       ?Name
+       ?fullName
+       ?substrate
+	   ?location_inside_cell
+       ?moiety
+       ?AminoAcid
+       ?position
+       ?evidenceCode
+       ?publication
+       ?ProteinEntryReviewed
+
+
+WHERE {
+  ?protein a up:Protein ;
+           up:organism taxon:9606 .
+  BIND(substr(str(?protein), strlen(str(uniprotkb:))+1) AS ?primaryAccession) . 
+  
+  OPTIONAL {  ?protein  up:mnemonic ?Name ; 
+                        up:recommendedName ?recommendedName .
+              ?recommendedName up:fullName ?fullName . }
+  
+  OPTIONAL {  ?protein up:annotation ?annotation1 .
+              ?annotation1 a up:Similarity_Annotation ;
+                           rdfs:comment ?substrate . }
+  
+  ?protein up:annotation ?annotation2 .
+  ?annotation2 a up:Lipidation_Annotation ;
+              rdfs:comment ?moiety .
+
+  {FILTER (CONTAINS(?moiety, "S-farnesyl cysteine"))} UNION
+  {FILTER (CONTAINS (?moiety, "S-geranylgeranyl cysteine"))}
+  
+  ?annotation2 up:range/faldo:begin
+                [ faldo:position ?index ;
+                  faldo:reference ?reference ] .
+  
+  ?reference rdf:value ?sequence .
+  BIND(strlen(?sequence) AS ?TotalLength) .
+  BIND((?index - ?TotalLength)-1 AS ?position) .
+  BIND(substr(?sequence, ?index, 1) AS ?AminoAcid) .
+
+  OPTIONAL { ?linkToEvidence rdf:object ?annotation2 ;
+                             up:attribution ?attribution .
+             ?attribution up:evidence ?evidence .
+             BIND(substr(str(?evidence), strlen(str(uniprotkb:))) AS ?evidenceCode) . }
+  
+  OPTIONAL { ?linkToEvidence rdf:object ?annotation2 ;
+                             up:attribution ?attribution .
+             ?attribution up:source ?source  .
+             ?source dc:identifier ?publication . }
+			 
+  OPTIONAL { ?protein up:annotation ?annotation3 .
+             ?annotation3 a up:Subcellular_Location_Annotation;
+			               up:locatedIn/up:cellularComponent ?cellcmpt .
+             ?cellcmpt skos:prefLabel ?location_inside_cell . }
+			 
+
+  ?protein up:reviewed ?ProteinEntryReviewed .
+}

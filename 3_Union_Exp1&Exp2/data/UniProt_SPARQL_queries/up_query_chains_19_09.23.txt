@@ -1,0 +1,18 @@
+SELECT ?ID
+	   ?seq
+
+WHERE {
+  ?protein a up:Protein .
+  VALUES ?protein {uniprotkb:O14734 uniprotkb:O14828 uniprotkb:O15126 uniprotkb:O15127 uniprotkb:O43169 uniprotkb:O60831 uniprotkb:O75438 uniprotkb:O75521 uniprotkb:O94919 uniprotkb:O95169 uniprotkb:O95197 uniprotkb:O95562 uniprotkb:O95807 uniprotkb:O95870 uniprotkb:O96011 uniprotkb:P00156 uniprotkb:P00414 uniprotkb:P04233 uniprotkb:P04234 uniprotkb:P05107 uniprotkb:P05556 uniprotkb:P09110 uniprotkb:P11169 uniprotkb:P19397 uniprotkb:P21796 uniprotkb:P22307 uniprotkb:P27487 uniprotkb:P27701 uniprotkb:P30519 uniprotkb:P30837 uniprotkb:P32248 uniprotkb:P34913 uniprotkb:P35914 uniprotkb:P43403 uniprotkb:P45880 uniprotkb:P46379 uniprotkb:P48960 uniprotkb:P49189 uniprotkb:P54709 uniprotkb:P54852 uniprotkb:P60033 uniprotkb:Q00765 uniprotkb:Q01650 uniprotkb:Q07812 uniprotkb:Q08722 uniprotkb:Q13571 uniprotkb:Q15041 uniprotkb:Q15067 uniprotkb:Q15125 uniprotkb:Q15365 uniprotkb:Q15629 uniprotkb:Q15758 uniprotkb:Q16611 uniprotkb:Q53H12 uniprotkb:Q5BJD5 uniprotkb:Q5BJF2 uniprotkb:Q6NUQ4 uniprotkb:Q6P1A2 uniprotkb:Q6PIU2 uniprotkb:Q7Z2K6 uniprotkb:Q86T03 uniprotkb:Q8IXM6 uniprotkb:Q8N2U0 uniprotkb:Q8N806 uniprotkb:Q8NBI2 uniprotkb:Q8NG11 uniprotkb:Q8TC12 uniprotkb:Q92556 uniprotkb:Q969X1 uniprotkb:Q99442 uniprotkb:Q99643 uniprotkb:Q99732 uniprotkb:Q99808 uniprotkb:Q9BTV4 uniprotkb:Q9BV40 uniprotkb:Q9BVK8 uniprotkb:Q9BW60 uniprotkb:Q9H0R3 uniprotkb:Q9H3H5 uniprotkb:Q9H3K2 uniprotkb:Q9H3N1 uniprotkb:Q9H3Z4 uniprotkb:Q9NV92 uniprotkb:Q9NX40 uniprotkb:Q9NZC3 uniprotkb:Q9P2X0 uniprotkb:Q9UI14 uniprotkb:Q9Y294 uniprotkb:Q9Y6C9 uniprotkb:Q9Y6M5 uniprotkb:Q9Y6W8}
+  BIND(substr(str(?protein), strlen(str(uniprotkb:))+1) AS ?ID) . 
+  
+  OPTIONAL { ?protein up:annotation ?annotation2 .
+             ?annotation2 a up:Chain_Annotation ;
+                          rdfs:comment ?comment2 .
+    
+    		 ?annotation2 up:range/faldo:begin
+                [ faldo:position ?index ;
+                  faldo:reference ?reference ] . 
+             ?reference rdf:value ?seq .
+			 }
+}

@@ -1,0 +1,72 @@
+ID,name,fullName,substrate,location,moiety,AminoAcid,position,evidenceCode,publication,ProteinEntryReviewed,motif
+A6NDB9,PALM3,Paralemmin-3,paralemmin,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CAAX
+A6NIT2,A6NIT2,Phosphorylase b kinase regulatory subunit,phosphorylase b kinase regulatory chain,Membrane,S-farnesyl cysteine,C,-4,ECO_0000256,,false,CXXX
+A6NMN0,A6NMN0,Phosphorylase b kinase regulatory subunit,phosphorylase b kinase regulatory chain,Membrane,S-farnesyl cysteine,C,-4,ECO_0000256,,false,CXXX
+O14610,GBGT2,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-T2,G protein gamma,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CAAX
+O15255,CXX1,CAAX box protein 1,CXX1,Membrane,S-farnesyl cysteine,C,-4,ECO_0000255,,true,CAAX
+O60884,DNJA2,DnaJ homolog subfamily A member 2,DNJA2,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1073/pnas.0403413101,true,CXXX
+O75365,TP4A3,Protein tyrosine phosphatase type IVA 3,protein-tyrosine phosphatase,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+O75781,PALM,Paralemmin-1,paralemmin,Membrane,S-farnesyl cysteine,C,-4,ECO_0000255,,true,CXXX
+O94955,RHBT3,Rho-related BTB domain-containing protein 3,RHBT3,Golgi apparatus,S-farnesyl cysteine,C,-4,extended_search,doi:10.1038/s41557-019-0237-6,true,CAAX
+P01111,RASN,GTPase NRas,Ras,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1016/0092-8674(89)90054-8,true,CAAX
+P01112,RASH,GTPase HRas,Ras,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1074/jbc.271.19.11541,true,CAAX
+P01116,RASK,GTPase KRas,Ras,Membrane,S-farnesyl cysteine,C,-4,"['ECO_0000269', 'ECO_0000305', 'ECO_0007744']","['doi:10.1074/jbc.m113.527192', 'doi:10.1073/pnas.1615316113']",true,CAAX
+P02545,LMNA,Prelamin-A/C,intermediate filament,"['Nucleus lamina', 'Nucleus matrix', 'Nucleus', 'Nucleoplasm', 'Nucleus speckle', 'Nucleus envelope']",S-farnesyl cysteine,C,-4,ECO_0000269,"['doi:10.1242/jcs.107.1.61', 'doi:10.1074/jbc.272.8.5298']",true,CXXX
+P04899,GNAI2,Guanine nucleotide-binding protein G(i) subunit alpha-2,G-alpha,Membrane,S-farnesyl cysteine,C,-4,extended_search,doi:10.1039/c3mb70593e,true,CAAX
+P09543,CN37,"2',3'-cyclic-nucleotide 3'-phosphodiesterase",CNPase,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P09936,UCHL1,Ubiquitin carboxyl-terminal hydrolase isozyme L1,peptidase C12,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1073/pnas.0806474106,true,CXXX
+P10114,RAP2A,Ras-related protein Rap-2a,Ras,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1042/bj2890349,true,CXXX
+P16499,PDE6A,"Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha",cyclic nucleotide phosphodiesterase,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P17081,RHOQ,Rho-related GTP-binding protein RhoQ,Rho,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CAAX
+P20700,LMNB1,Lamin-B1,intermediate filament,Nucleus lamina,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1016/s0021-9258(19)47079-8,true,CAAX
+P31689,DNJA1,DnaJ homolog subfamily A member 1,DNJA1,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,"['doi:10.1093/oxfordjournals.jbchem.a021670', 'doi:10.1038/sj.cdd.4401369']",true,CXXX
+P32019,I5P2,"Type II inositol 1,4,5-trisphosphate 5-phosphatase","inositol 1,4,5-trisphosphate 5-phosphatase type II",Membrane,S-farnesyl cysteine,C,-4,ECO_0000255,,true,CXXX
+P32455,GBP1,Guanylate-binding protein 1,GB1/RHD3 GTPase,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1002/jlb.60.3.423,true,CXXX
+P40855,PEX19,Peroxisomal biogenesis factor 19,peroxin-19,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,"['doi:10.1006/geno.1997.4914', 'doi:10.1073/pnas.96.5.2116']",true,CAAX
+P43119,PI2R,Prostacyclin receptor,G-protein coupled receptor 1,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1046/j.1432-1327.2002.02817.x,true,CXXX
+P46019,KPB2,"Phosphorylase b kinase regulatory subunit alpha, liver isoform",phosphorylase b kinase regulatory chain,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P46020,KPB1,"Phosphorylase b kinase regulatory subunit alpha, skeletal muscle isoform",phosphorylase b kinase regulatory chain,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P49454,CENPF,Centromere protein F,centromere protein F,"['Kinetochore', 'Perinuclear region', 'Nucleus matrix', 'Spindle']",S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1074/jbc.m003469200,true,CXXX
+P51157,RAB28,Ras-related protein Rab-28,Rab,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1371/journal.pcbi.0030066,true,CAAX
+P55209,NP1L1,Nucleosome assembly protein 1-like 1,nucleosome assembly protein (NAP),"['Melanosome', 'Nucleus', 'Cytoplasm']",S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1073/pnas.0403413101,true,CXXX
+P61587,RND3,Rho-related GTP-binding protein RhoE,Rho,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1128/mcb.16.6.2689,true,CXXX
+P61952,GBG11,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-11,G protein gamma,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1074/jbc.270.37.21765,true,CAAX
+P62070,RRAS2,Ras-related protein R-Ras2,Ras,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1073/pnas.0403413101,true,CAAX
+P63096,GNAI1,Guanine nucleotide-binding protein G(i) subunit alpha-1,G-alpha,Membrane,S-farnesyl cysteine,C,-4,extended_search,doi:10.1039/c3mb70593e,true,CAAX
+P63211,GBG1,Guanine nucleotide-binding protein G(T) subunit gamma-T1,G protein gamma,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CAAX
+Q02224,CENPE,Centromere-associated protein E,Kinesin,"['Centromere', 'Kinetochore', 'Spindle']",S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1074/jbc.m003469200,true,CXXX
+Q03252,LMNB2,Lamin-B2,intermediate filament,Nucleus lamina,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q12974,TP4A2,Protein tyrosine phosphatase type IVA 2,protein-tyrosine phosphatase,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,"['doi:10.1016/s0304-3835(96)04459-x', 'doi:10.1074/jbc.m010400200']",true,CXXX
+Q13286,CLN3,Battenin,battenin,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1111/j.1600-0854.2007.00537.x,true,CXXX
+Q14642,I5P1,Inositol polyphosphate-5-phosphatase A,"inositol 1,4,5-trisphosphate 5-phosphatase type I",Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1074/jbc.271.17.10419,true,CAAX
+Q15382,RHEB,GTP-binding protein Rheb,Rheb,Membrane,S-farnesyl cysteine,C,-4,"['ECO_0000269', 'ECO_0007744']","['doi:10.1038/nchembio.686', 'doi:10.1073/pnas.0403413101']",true,CXXX
+Q15831,STK11,Serine/threonine-protein kinase STK11,CAMK Ser/Thr protein kinase,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q15835,GRK1,Rhodopsin kinase GRK1,AGC Ser/Thr protein kinase,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CAAX
+Q32MZ4,LRRF1,Leucine-rich repeat flightless-interacting protein 1,LRRFIP,"['Nucleus', 'Cytoplasm']",S-farnesyl cysteine,C,-4,extended_search,doi:10.1038/s41557-019-0237-6,true,CXXX
+Q5TAQ9,DCAF8,DDB1- and CUL4-associated factor 8,WD repeat DCAF8,"['Nucleus', 'Cytoplasm']",S-farnesyl cysteine,C,-4,extended_search,doi:10.1038/s41557-019-0237-6,true,CXXX
+Q5VW32,BROX,BRO1 domain-containing protein BROX,BROX,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,"['doi:10.1371/journal.pcbi.0030066', 'doi:10.1111/j.1742-4658.2007.06230.x']",true,CXXX
+Q6P2H3,CEP85,Centrosomal protein of 85 kDa,CEP85,"['Spindle pole', 'Cell cortex', 'Centriole', 'Centrosome', 'Nucleolus']",S-farnesyl cysteine,C,-4,extended_search,doi:10.1038/s41557-019-0237-6,true,CXXX
+Q6PHR2,ULK3,Serine/threonine-protein kinase ULK3,Ser/Thr protein kinase,Cytoplasm,S-farnesyl cysteine,C,-4,extended_search,doi:10.1038/s41557-019-0237-6,true,CXXX
+Q7Z3G6,PRIC2,Prickle-like protein 2,prickle / espinas / testin,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1371/journal.pcbi.0030066,true,CAAX
+Q7Z444,RASE,GTPase ERas,Ras,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q7Z7G2,CPLX4,Complexin-4,complexin/synaphin,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q9Y2D5,PALM2,Paralemmin-2,paralemmin,Membrane,S-farnesyl cysteine,C,-4,ECO_0000255,,true,CAAX
+Q8NFA0,UBP32,Ubiquitin carboxyl-terminal hydrolase 32,peptidase C19,Membrane,S-farnesyl cysteine,C,-4,ECO_0000255,,true,CAAX
+Q8TAI7,REBL1,GTPase RhebL1,Rheb,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1074/jbc.m503763200,true,CXXX
+Q8WVH0,CPLX3,Complexin-3,complexin/synaphin,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q8WW22,DNJA4,DnaJ homolog subfamily A member 4,DNJA4,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q92737,RSLAA,Ras-like protein family member 10A,Ras,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1158/0008-5472.can-04-0749,true,CXXX
+Q93096,TP4A1,Protein tyrosine phosphatase type IVA 1,protein-tyrosine phosphatase,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,doi:10.1016/s0304-3835(96)04459-x,true,CXXX
+Q93100,KPBB,Phosphorylase b kinase regulatory subunit beta,phosphorylase b kinase regulatory chain,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CAAX
+Q96D21,RHES,GTP-binding protein Rhes,RasD,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q96I34,PP16A,Protein phosphatase 1 regulatory subunit 16A,PP16A,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CAAX
+Q96MT3,PRIC1,Prickle-like protein 1,prickle / espinas / testin,Membrane,S-farnesyl cysteine,C,-4,ECO_0000269,"['doi:10.1371/journal.pcbi.0030066', 'doi:10.1128/mcb.23.24.9025-9031.2003']",true,CAAX
+Q96T49,PP16B,Protein phosphatase 1 regulatory inhibitor subunit 16B,PP16B,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q99733,NP1L4,Nucleosome assembly protein 1-like 4,nucleosome assembly protein (NAP),"['Nucleus', 'Cytoplasm']",S-farnesyl cysteine,C,-4,extended_search,doi:10.1038/s41557-019-0237-6,true,CXXX
+Q9BVM2,DPCD,Protein DPCD,DPCD,,S-farnesyl cysteine,C,-4,extended_search,doi:10.1038/s41557-019-0237-6,true,CXXX
+Q9H4E5,RHOJ,Rho-related GTP-binding protein RhoJ,Rho,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q9NRR6,INP5E,Phosphatidylinositol polyphosphate 5-phosphatase type IV,"inositol 1,4,5-trisphosphate 5-phosphatase type IV",Membrane,S-farnesyl cysteine,C,-4,ECO_0000305,doi:10.1002/humu.22470,true,CXXX
+Q9P2W3,GBG13,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-13,G protein gamma,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q9UP65,PA24C,Cytosolic phospholipase A2 gamma,PA24C,Membrane,S-farnesyl cysteine,C,-4,"['ECO_0000269', 'ECO_0000305']","['doi:10.1074/jbc.273.34.21926', 'doi:10.1021/bi034611q']",true,CXXX
+Q9Y272,RASD1,Dexamethasone-induced Ras-related protein 1,RasD,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,true,CAAX
+P62745,RHOB,Rho-related GTP-binding protein RhoB,Rho,Membrane,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]",C,-4,ECO_0000269,"['doi:10.1074/jbc.270.14.7864', 'doi:10.1016/s0021-9258(19)88661-1']",true,CXXX

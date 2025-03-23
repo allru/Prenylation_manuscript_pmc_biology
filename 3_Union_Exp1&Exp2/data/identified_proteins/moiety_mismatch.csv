@@ -1,0 +1,34 @@
+ID,name,fullName,substrate,location,moiety,AminoAcid,position,evidenceCode,publication,ProteinEntryReviewed,motif,pep,Exp_moiety
+P04899,GNAI2,Guanine nucleotide-binding protein G(i) subunit alpha-2,G-alpha,Membrane,S-farnesyl cysteine,C,-4,extended_search,doi:10.1039/c3mb70593e,True,CAAX,KNNLKDCGLF,S-geranylgeranyl cysteine
+P09543,CN37,"2',3'-cyclic-nucleotide 3'-phosphodiesterase",CNPase,Membrane,S-farnesyl cysteine,C,-4,ECO_0000250,,True,CXXX,GGALQSCTII,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P62745,RHOB,Rho-related GTP-binding protein RhoB,Rho,Membrane,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]",C,-4,ECO_0000269,"['doi:10.1074/jbc.270.14.7864', 'doi:10.1016/s0021-9258(19)88661-1']",True,CXXX,NGCINCCKVL,S-farnesyl cysteine
+O95164,UBL3,Ubiquitin-like protein 3,UBL3,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000305,doi:10.1074/jbc.m602283200,True,CAAX,TGESNCCVIL,S-farnesyl cysteine
+P08134,RHOC,Rho-related GTP-binding protein RhoC,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CXXX,NKRRRGCPIL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P11233,RALA,Ras-related protein Ral-A,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,"['doi:10.1016/s0021-9258(18)92889-9', 'doi:10.1128/mcb.00057-07']",True,CXXX,KRIRERCCIL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P11234,RALB,Ras-related protein Ral-B,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1128/mcb.00057-07,True,CXXX,KSFKERCCLL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P15153,RAC2,Ras-related C3 botulinum toxin substrate 2,Rho,Cytoplasm,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1016/s0021-9258(18)92889-9,True,CXXX,RQQKRACSLL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P20340,RAB6A,Ras-related protein Rab-6A,Rab,Membrane,S-geranylgeranyl cysteine,C,"[-3, -1]",ECO_0000250,,True,CXC,QPVSEGGCSC,S-farnesyl cysteine
+P32456,GBP2,Guanylate-binding protein 2,GB1/RHD3 GTPase,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1371/journal.pone.0014246,True,CXXX,KSLEPICNIL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P50151,GBG10,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-10,G protein gamma,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1074/jbc.270.37.21765,True,CAAX,FREPRSCALL,S-farnesyl cysteine
+P51159,RB27A,Ras-related protein Rab-27A,Rab,Membrane,S-geranylgeranyl cysteine,C,"[-3, -1]",ECO_0000250,,True,CXC,EEKEKGACGC,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P59768,GBG2,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2,G protein gamma,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CAAX,REKKFFCAIL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P60953,CDC42,Cell division control protein 42 homolog,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,"['ECO_0000269', 'ECO_0007744']",['doi:10.1016/s0092-8674(00)80670-4'],True,CAAX,PKKSRRCVLL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P61006,RAB8A,Ras-related protein Rab-8A,Rab,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1016/0014-5793(93)80897-4,True,CAAX,RSSFFRCVLL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P61026,RAB10,Ras-related protein Rab-10,Rab,Membrane,S-geranylgeranyl cysteine,C,"[-2, -1]",ECO_0000250,,True,CC,GVTGWKSKCC,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P61224,RAP1B,Ras-related protein Rap-1b,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1073/pnas.87.22.8960,True,CXXX,ARKKSSCQLL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P61225,RAP2B,Ras-related protein Rap-2b,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1042/bj2890349,True,CAAX,EGCCSACVIL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P61586,RHOA,Transforming protein RhoA,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CAAX,GKKKSGCLVL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P63000,RAC1,Ras-related C3 botulinum toxin substrate 1,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1016/s0021-9258(18)92889-9,True,CAAX,KKRKRKCLLL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P63218,GBG5,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-5,G protein gamma,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CXXX,FRPQKVCSFL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+P84095,RHOG,Rho-related GTP-binding protein RhoG,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CAAX,IKRGRSCILL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+Q14088,RB33A,Ras-related protein Rab-33A,Rab,Membrane,S-geranylgeranyl cysteine,C,"[-3, -1]",ECO_0000250,,True,CXC,EANSKTSCPC,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+Q15669,RHOH,Rho-related GTP-binding protein RhoH,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CXXX,LFSINECKIF,S-farnesyl cysteine
+Q86YS6,RAB43,Ras-related protein Rab-43,Rab,Membrane,S-geranylgeranyl cysteine,C,"[-3, -1]",ECO_0000250,,True,CXC,DIGEGWGCGC,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+Q8WV99,ZFN2B,AN1-type zinc finger protein 2B,ZFN2B,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CXXX,SSKPSNCSLC,S-farnesyl cysteine
+Q92930,RAB8B,Ras-related protein Rab-8B,Rab,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CXXX,KTSFFRCSLL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+Q96PP8,GBP5,Guanylate-binding protein 5,GB1/RHD3 GTPase,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1371/journal.pone.0014246,True,CAAX,VNNDDPCVLL,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+Q96S21,RB40C,Ras-related protein Rab-40C,Rab,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CXXX,NCSRSNCKIS,S-farnesyl cysteine
+Q9BRT3,MIEN1,Migration and invasion enhancer 1,SelWTH,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,"['doi:10.1074/jbc.m111.254599', 'doi:10.1038/onc.2009.145']",True,CAAX,TNSRPPCVIL,S-farnesyl cysteine
+Q9H0U4,RAB1B,Ras-related protein Rab-1B,Rab,Membrane,S-geranylgeranyl cysteine,C,"[-2, -1]",ECO_0000269,doi:10.1042/bj3181007,True,CC,PVKPAGGGCC,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]"
+Q9UK08,GBG8,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-8,G protein gamma,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CAAX,RDKRLFCVLL,S-farnesyl cysteine
+Q9Y3L5,RAP2C,Ras-related protein Rap-2c,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CAAX,DQCCTTCVVQ,S-farnesyl cysteine

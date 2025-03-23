@@ -1,0 +1,7 @@
+ID,name,fullName,substrate,location,moiety,AminoAcid,position,evidenceCode,publication,ProteinEntryReviewed,motif,pep,Exp_moiety
+P41567,EIF1,Eukaryotic translation initiation factor 1,SUI1,Cytoplasm,,,0,,,True,internal,,S-farnesyl cysteine
+P52292,IMA1,Importin subunit alpha-1,importin alpha,Membrane,,,0,,,True,internal,,S-farnesyl cysteine
+Q8IUC0,KR131,Keratin-associated protein 13-1,PMG,,,,0,,,True,internal,,S-farnesyl cysteine
+Q8N0X7,SPART,Spartin,SPART,"['Cytoplasm', 'Midbody']",,,0,,,True,internal,,S-farnesyl cysteine
+Q969T9,WBP2,WW domain-binding protein 2,WBP2,"['Cytoplasm', 'Nucleus']",,,0,,,True,internal,,S-farnesyl cysteine
+Q9UI42,CBPA4,Carboxypeptidase A4,peptidase M14,Secreted,,,0,,,True,internal,,S-farnesyl cysteine

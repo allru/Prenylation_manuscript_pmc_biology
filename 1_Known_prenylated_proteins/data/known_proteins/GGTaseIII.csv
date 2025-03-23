@@ -1,0 +1,3 @@
+ID,name,fullName,substrate,location,moiety,AminoAcid,position,evidenceCode,publication,ProteinEntryReviewed,motif
+Q9UKC9,FBXL2,F-box/LRR-repeat protein 2,FBXL2,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000305,doi:10.1016/j.molcel.2005.04.004,true,CAAX
+O15498,YKT6,Synaptobrevin homolog YKT6,synaptobrevin,Membrane,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]",C,-4,"['ECO_0000269', 'extended_search']","['doi.org/10.15252/embj.2019104120', 'doi:10.1073/pnas.0401183101']",true,CAAX

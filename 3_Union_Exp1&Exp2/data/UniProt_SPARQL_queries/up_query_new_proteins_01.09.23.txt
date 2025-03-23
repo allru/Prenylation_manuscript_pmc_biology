@@ -1,0 +1,54 @@
+SELECT ?primaryAccession
+       ?Name
+       ?fullName
+       ?substrate
+	   ?location_inside_cell
+       ?moiety
+       ?AminoAcid
+       ?position
+	   ?evidenceCode
+       ?publication
+       ?ProteinEntryReviewed
+
+
+WHERE {
+  ?protein a up:Protein .
+  VALUES ?protein {uniprotkb:P54709 uniprotkb:Q9BW60 uniprotkb:P54852 uniprotkb:Q8N806 uniprotkb:P27701 uniprotkb:Q969X1 uniprotkb:Q9Y6M5 uniprotkb:P45880 uniprotkb:Q99442 uniprotkb:O14880 uniprotkb:Q9NZC3 uniprotkb:O15127 uniprotkb:Q15067 uniprotkb:Q7Z2W4 uniprotkb:Q9Y294 uniprotkb:Q9H3Z4 uniprotkb:P30519 uniprotkb:Q16644 uniprotkb:Q9BV40 uniprotkb:Q9Y6C9 uniprotkb:Q92556 uniprotkb:Q9H0R3 uniprotkb:Q16611 uniprotkb:O94919 uniprotkb:P35914 uniprotkb:P04234 uniprotkb:P04233 uniprotkb:Q6NUQ4 uniprotkb:Q9P2X0 uniprotkb:P60033 uniprotkb:O14828 uniprotkb:O15126 uniprotkb:P32248 uniprotkb:Q15125 uniprotkb:Q5BJD5 uniprotkb:Q5BJF2 uniprotkb:Q9NV92 uniprotkb:Q8NG11 uniprotkb:Q9BVK8 uniprotkb:Q15041 uniprotkb:O60831 uniprotkb:Q9UI14 uniprotkb:P67812 uniprotkb:Q8N5D0 uniprotkb:P43403 uniprotkb:Q8TC12 uniprotkb:Q6P1A2 uniprotkb:Q15758 uniprotkb:O95169 uniprotkb:Q53H12 uniprotkb:P47756 uniprotkb:Q15437 uniprotkb:P21796 uniprotkb:O95807 uniprotkb:Q9Y6W8}
+  BIND(substr(str(?protein), strlen(str(uniprotkb:))+1) AS ?primaryAccession) . 
+  
+  OPTIONAL{ ?protein  up:mnemonic ?Name ; 
+                      up:recommendedName ?recommendedName .
+            ?recommendedName up:fullName ?fullName . }
+  
+  OPTIONAL{ ?protein up:annotation ?annotation1 .
+	 		?annotation1 a up:Similarity_Annotation ;
+			               rdfs:comment ?substrate . }
+  
+  OPTIONAL { ?protein up:annotation ?annotation2 .
+             ?annotation2 a up:Lipidation_Annotation ;
+                          rdfs:comment ?moiety . 
+			 ?annotation2 up:range/faldo:begin
+                [ faldo:position ?index ;
+                  faldo:reference ?reference ] . 
+			   ?reference rdf:value ?sequence .
+			 BIND(strlen(?sequence) AS ?TotalLength) .
+			 BIND((?index - ?TotalLength)-1 AS ?position) .
+			 BIND(substr(?sequence, ?index, 1) AS ?AminoAcid) . 
+             
+             OPTIONAL { ?linkToEvidence rdf:object ?annotation2 ;
+                                        up:attribution ?attribution .
+                        ?attribution up:evidence ?evidence .
+                        BIND(substr(str(?evidence), strlen(str(uniprotkb:))) AS ?evidenceCode) . }
+  
+             OPTIONAL { ?linkToEvidence rdf:object ?annotation2 ;
+                                        up:attribution ?attribution .
+                        ?attribution up:source ?source  .
+                        ?source dc:identifier ?publication . }  }
+
+  OPTIONAL { ?protein up:annotation ?annotation3 .
+             ?annotation3 a up:Subcellular_Location_Annotation;
+			               up:locatedIn/up:cellularComponent ?cellcmpt .
+             ?cellcmpt skos:prefLabel ?location_inside_cell . }
+
+  ?protein up:reviewed ?ProteinEntryReviewed .
+}

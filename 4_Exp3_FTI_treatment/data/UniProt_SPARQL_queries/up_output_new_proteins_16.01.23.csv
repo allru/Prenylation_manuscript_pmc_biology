@@ -1,0 +1,67 @@
+primaryAccession;Name;fullName;substrate;location_inside_cell;moiety;AminoAcid;position;evidenceCode;publication;ProteinEntryReviewed
+Q16644;MAPK3_HUMAN;MAP kinase-activated protein kinase 3;Belongs to the protein kinase superfamily. CAMK Ser/Thr protein kinase family.;Nucleus;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q16644;MAPK3_HUMAN;MAP kinase-activated protein kinase 3;Belongs to the protein kinase superfamily. CAMK Ser/Thr protein kinase family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q16644;MAPK3_HUMAN;MAP kinase-activated protein kinase 3;Belongs to the protein kinase superfamily. CAMK Ser/Thr protein kinase family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q16644;MAPK3_HUMAN;MAP kinase-activated protein kinase 3;Belongs to the protein kinase superfamily. CAMK Ser/Thr protein kinase family.;Nucleus;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P52292;IMA1_HUMAN;Importin subunit alpha-1;Belongs to the importin alpha family.;Nucleus;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P52292;IMA1_HUMAN;Importin subunit alpha-1;Belongs to the importin alpha family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P52292;IMA1_HUMAN;Importin subunit alpha-1;Belongs to the importin alpha family.;Golgi apparatus membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P52292;IMA1_HUMAN;Importin subunit alpha-1;Belongs to the importin alpha family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P52292;IMA1_HUMAN;Importin subunit alpha-1;Belongs to the importin alpha family.;Endoplasmic reticulum membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P52292;IMA1_HUMAN;Importin subunit alpha-1;Belongs to the importin alpha family.;Nucleus;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P52292;IMA1_HUMAN;Importin subunit alpha-1;Belongs to the importin alpha family.;Golgi apparatus membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P52292;IMA1_HUMAN;Importin subunit alpha-1;Belongs to the importin alpha family.;Endoplasmic reticulum membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+O43900;PRIC3_HUMAN;Prickle planar cell polarity protein 3;Belongs to the prickle / espinas / testin family.;Cell membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+O43900;PRIC3_HUMAN;Prickle planar cell polarity protein 3;Belongs to the prickle / espinas / testin family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+O43900;PRIC3_HUMAN;Prickle planar cell polarity protein 3;Belongs to the prickle / espinas / testin family.;Mitochondrion;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+O43900;PRIC3_HUMAN;Prickle planar cell polarity protein 3;Belongs to the prickle / espinas / testin family.;Cell membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+O43900;PRIC3_HUMAN;Prickle planar cell polarity protein 3;Belongs to the prickle / espinas / testin family.;Mitochondrion;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+O43900;PRIC3_HUMAN;Prickle planar cell polarity protein 3;Belongs to the prickle / espinas / testin family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+O95236;APOL3_HUMAN;Apolipoprotein L3;Belongs to the apolipoprotein L family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+O95236;APOL3_HUMAN;Apolipoprotein L3;Belongs to the apolipoprotein L family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q96EA4;SPDLY_HUMAN;Protein Spindly;Belongs to the Spindly family.;Centrosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q96EA4;SPDLY_HUMAN;Protein Spindly;Belongs to the Spindly family.;Kinetochore;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q96EA4;SPDLY_HUMAN;Protein Spindly;Belongs to the Spindly family.;Nucleus;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q96EA4;SPDLY_HUMAN;Protein Spindly;Belongs to the Spindly family.;Spindle pole;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q969T9;WBP2_HUMAN;WW domain-binding protein 2;;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q969T9;WBP2_HUMAN;WW domain-binding protein 2;;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q969T9;WBP2_HUMAN;WW domain-binding protein 2;;Nucleus;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q969T9;WBP2_HUMAN;WW domain-binding protein 2;;Nucleus;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q96EA4;SPDLY_HUMAN;Protein Spindly;Belongs to the Spindly family.;Centrosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q96EA4;SPDLY_HUMAN;Protein Spindly;Belongs to the Spindly family.;Spindle pole;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q96EA4;SPDLY_HUMAN;Protein Spindly;Belongs to the Spindly family.;Kinetochore;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q96EA4;SPDLY_HUMAN;Protein Spindly;Belongs to the Spindly family.;Nucleus;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q9UI42;CBPA4_HUMAN;Carboxypeptidase A4;Belongs to the peptidase M14 family.;Secreted;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q9UI42;CBPA4_HUMAN;Carboxypeptidase A4;Belongs to the peptidase M14 family.;Secreted;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q5SZL2;CE85L_HUMAN;Centrosomal protein of 85 kDa-like;Belongs to the CEP85 family.;Centrosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q5SZL2;CE85L_HUMAN;Centrosomal protein of 85 kDa-like;Belongs to the CEP85 family.;Centrosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8N0X7;SPART_HUMAN;Spartin;;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8N0X7;SPART_HUMAN;Spartin;;Midbody;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8N0X7;SPART_HUMAN;Spartin;;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8N3D4;EH1L1_HUMAN;EH domain-binding protein 1-like protein 1;;Endosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8N3D4;EH1L1_HUMAN;EH domain-binding protein 1-like protein 1;;Endosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8N0X7;SPART_HUMAN;Spartin;;Midbody;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8NDI1;EHBP1_HUMAN;EH domain-binding protein 1;;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8NDI1;EHBP1_HUMAN;EH domain-binding protein 1;;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8NDI1;EHBP1_HUMAN;EH domain-binding protein 1;;Membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8NDI1;EHBP1_HUMAN;EH domain-binding protein 1;;Membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8NDI1;EHBP1_HUMAN;EH domain-binding protein 1;;Endosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8NDI1;EHBP1_HUMAN;EH domain-binding protein 1;;Endosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P41567;EIF1_HUMAN;Eukaryotic translation initiation factor 1;Belongs to the SUI1 family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+P41567;EIF1_HUMAN;Eukaryotic translation initiation factor 1;Belongs to the SUI1 family.;Cytoplasm;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q27J81;INF2_HUMAN;Inverted formin-2;Belongs to the formin homology family.;Perinuclear region;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q9Y3P9;RBGP1_HUMAN;Rab GTPase-activating protein 1;;Cytosol;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q9Y3P9;RBGP1_HUMAN;Rab GTPase-activating protein 1;;Cytosol;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q9Y3P9;RBGP1_HUMAN;Rab GTPase-activating protein 1;;Centrosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q9Y3P9;RBGP1_HUMAN;Rab GTPase-activating protein 1;;Centrosome;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q27J81;INF2_HUMAN;Inverted formin-2;Belongs to the formin homology family.;Perinuclear region;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q4ADV7;RIC1_HUMAN;Guanine nucleotide exchange factor subunit RIC1;Belongs to the RIC1 family.;Membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q4ADV7;RIC1_HUMAN;Guanine nucleotide exchange factor subunit RIC1;Belongs to the RIC1 family.;Membrane;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q4ADV7;RIC1_HUMAN;Guanine nucleotide exchange factor subunit RIC1;Belongs to the RIC1 family.;Cytosol;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q4ADV7;RIC1_HUMAN;Guanine nucleotide exchange factor subunit RIC1;Belongs to the RIC1 family.;Cytosol;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8IW50;F219A_HUMAN;Protein FAM219A;Belongs to the FAM219 family.;;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8IW50;F219A_HUMAN;Protein FAM219A;Belongs to the FAM219 family.;;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8IUC0;KR131_HUMAN;Keratin-associated protein 13-1;Belongs to the PMG family.;;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8IUC0;KR131_HUMAN;Keratin-associated protein 13-1;Belongs to the PMG family.;;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8N5D0;WDTC1_HUMAN;WD and tetratricopeptide repeats protein 1;;;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>
+Q8N5D0;WDTC1_HUMAN;WD and tetratricopeptide repeats protein 1;;;;;;;;true^^<http://www.w3.org/2001/XMLSchema#boolean>

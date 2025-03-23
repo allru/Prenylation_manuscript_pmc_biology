@@ -1,0 +1,24 @@
+
+SELECT ?primaryAccession
+       ?index
+       ?evidenceCode
+
+
+WHERE {
+  ?protein a up:Protein .
+  VALUES ?protein {uniprotkb:Q15041 uniprotkb:Q32MZ4 uniprotkb:Q99808 uniprotkb:P32455 uniprotkb:P19397 uniprotkb:Q99442 uniprotkb:Q92930 uniprotkb:Q15758 uniprotkb:P62491 uniprotkb:P61006 uniprotkb:Q8TC12 uniprotkb:Q8IXM6 uniprotkb:P40855 uniprotkb:P01111 uniprotkb:P01112 uniprotkb:P60033 uniprotkb:P31689 uniprotkb:O15126 uniprotkb:P54709 uniprotkb:P63000 uniprotkb:P47756 uniprotkb:Q99733 uniprotkb:Q6PIU2 uniprotkb:P00156 uniprotkb:Q8WUD1 uniprotkb:O96011 uniprotkb:P30519 uniprotkb:Q13571 uniprotkb:P04234 uniprotkb:P20700 uniprotkb:Q8N2U0 uniprotkb:Q16644 uniprotkb:P67812 uniprotkb:P27701 uniprotkb:P61225 uniprotkb:Q93096 uniprotkb:P49189 uniprotkb:O60831 uniprotkb:Q15437 uniprotkb:P49454 uniprotkb:P51157 uniprotkb:P11233 uniprotkb:O14610 uniprotkb:Q8WV99 uniprotkb:Q9P2X0 uniprotkb:P22307 uniprotkb:O95807 uniprotkb:Q08722 uniprotkb:Q8N806 uniprotkb:O14734 uniprotkb:O15127 uniprotkb:P55209 uniprotkb:Q15669 uniprotkb:Q15067 uniprotkb:Q96T49 uniprotkb:Q9BW60 uniprotkb:P04233 uniprotkb:O43169 uniprotkb:Q9Y6M5 uniprotkb:Q6P2H3 uniprotkb:P48960 uniprotkb:Q8WW22 uniprotkb:Q9NX40 uniprotkb:Q969X1 uniprotkb:Q9Y3L5 uniprotkb:P63218 uniprotkb:Q8NG11 uniprotkb:P61018 uniprotkb:P30837 uniprotkb:P27487 uniprotkb:Q9BVM2 uniprotkb:P05107 uniprotkb:P50151 uniprotkb:Q9Y294 uniprotkb:P05556 uniprotkb:Q15365 uniprotkb:P32248 uniprotkb:P59768 uniprotkb:Q9UI14 uniprotkb:Q9H0R3 uniprotkb:Q53H12 uniprotkb:O95169 uniprotkb:P01116 uniprotkb:P54852 uniprotkb:Q5SZL2 uniprotkb:Q92556 uniprotkb:P10114 uniprotkb:O95197 uniprotkb:Q6PHR2 uniprotkb:P45880 uniprotkb:O95562 uniprotkb:Q9H3N1 uniprotkb:Q9BV40 uniprotkb:P28907 uniprotkb:P62070 uniprotkb:O15498 uniprotkb:O94919 uniprotkb:Q9Y6W8 uniprotkb:P32456 uniprotkb:Q5VW32 uniprotkb:Q15125 uniprotkb:Q93100 uniprotkb:Q14088 uniprotkb:Q15382 uniprotkb:Q16611 uniprotkb:Q9BTV4 uniprotkb:Q86T03 uniprotkb:Q9Y6C9 uniprotkb:Q9BVK8 uniprotkb:Q5BJD5 uniprotkb:Q99643 uniprotkb:O60884 uniprotkb:Q9NZC3 uniprotkb:P61586 uniprotkb:P11169 uniprotkb:Q8NBI2 uniprotkb:P21796 uniprotkb:Q8N5D0 uniprotkb:Q6P1A2 uniprotkb:Q9NV92 uniprotkb:P43403 uniprotkb:P11234 uniprotkb:O95870 uniprotkb:Q9H3K2 uniprotkb:P46379 uniprotkb:Q00765 uniprotkb:P09543 uniprotkb:Q9H3H5 uniprotkb:P51159 uniprotkb:Q5BJF2 uniprotkb:Q99732 uniprotkb:Q7Z2W4 uniprotkb:Q8IW50 uniprotkb:Q7Z2K6 uniprotkb:Q01650 uniprotkb:Q15629 uniprotkb:Q9H3Z4 uniprotkb:P35914 uniprotkb:P34913 uniprotkb:P00414 uniprotkb:Q03252 uniprotkb:Q12974 uniprotkb:P09110 uniprotkb:Q6NUQ4 uniprotkb:O75438 uniprotkb:P60953 uniprotkb:O75521 uniprotkb:P53985 uniprotkb:Q96PP8 uniprotkb:O14880 uniprotkb:O14828 uniprotkb:Q07812}
+  BIND(substr(str(?protein), strlen(str(uniprotkb:))+1) AS ?primaryAccession) . 
+
+  
+  OPTIONAL { ?protein up:annotation ?annotation2 .
+             ?annotation2 a up:Disulfide_Bond_Annotation .
+    
+			 ?annotation2 up:range/faldo:begin
+                [ faldo:position ?index ;
+                  faldo:reference ?reference ] . 
+            
+             ?linkToEvidence rdf:object ?annotation2 ;
+                             up:attribution ?attribution . 
+             ?attribution up:evidence ?evidence .
+             BIND(substr(str(?evidence), strlen(str(uniprotkb:))) AS ?evidenceCode) . }
+}

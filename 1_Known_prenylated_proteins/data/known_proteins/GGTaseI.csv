@@ -1,0 +1,24 @@
+ID,name,fullName,substrate,location,moiety,AminoAcid,position,evidenceCode,publication,ProteinEntryReviewed,motif
+A0A804HLA8,GBG5B,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-5B,G protein gamma,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+A6NIZ1,RP1BL,Ras-related protein Rap-1b-like protein,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+O95057,DIRA1,GTP-binding protein Di-Ras1,Di-Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P00973,OAS1,2'-5'-oligoadenylate synthase 1,2-5A synthase,"['Mitochondrion', 'Microsome', 'Cytoplasm', 'Nucleus', 'Secreted', 'Endoplasmic reticulum']",S-geranylgeranyl cysteine,C,-4,ECO_0000305,doi:10.1126/science.abj3624,true,CXXX
+P08134,RHOC,Rho-related GTP-binding protein RhoC,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P11233,RALA,Ras-related protein Ral-A,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,"['doi:10.1016/s0021-9258(18)92889-9', 'doi:10.1128/mcb.00057-07']",true,CXXX
+P11234,RALB,Ras-related protein Ral-B,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1128/mcb.00057-07,true,CXXX
+P15153,RAC2,Ras-related C3 botulinum toxin substrate 2,Rho,Cytoplasm,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1016/s0021-9258(18)92889-9,true,CXXX
+P32456,GBP2,Guanylate-binding protein 2,GB1/RHD3 GTPase,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1371/journal.pone.0014246,true,CXXX
+P35913,PDE6B,"Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit beta",cyclic nucleotide phosphodiesterase,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P43353,AL3B1,Aldehyde dehydrogenase family 3 member B1,aldehyde dehydrogenase,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1016/j.bbalip.2013.05.007,true,CXXX
+P48448,AL3B2,Aldehyde dehydrogenase family 3 member B2,aldehyde dehydrogenase,Lipid droplet,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P50150,GBG4,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-4,G protein gamma,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1074/jbc.270.37.21765,true,CXXX
+P51160,PDE6C,"Cone cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha'",cyclic nucleotide phosphodiesterase,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P52198,RND2,Rho-related GTP-binding protein RhoN,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P60763,RAC3,Ras-related C3 botulinum toxin substrate 3,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+P61224,RAP1B,Ras-related protein Rap-1b,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000269,doi:10.1073/pnas.87.22.8960,true,CXXX
+P63218,GBG5,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-5,G protein gamma,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q15669,RHOH,Rho-related GTP-binding protein RhoH,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q8WV99,ZFN2B,AN1-type zinc finger protein 2B,ZFN2B,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q92730,RND1,Rho-related GTP-binding protein Rho6,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,true,CXXX
+Q92834,RPGR,X-linked retinitis pigmentosa GTPase regulator,RPGR,"['Golgi apparatus', 'Flagellum axoneme', 'Cilium', 'Centrosome', 'Cilium axoneme', 'Cilium basal body']",S-geranylgeranyl cysteine,C,-4,ECO_0000255,,true,CXXX
+P62745,RHOB,Rho-related GTP-binding protein RhoB,Rho,Membrane,"[S-farnesyl cysteine, S-geranylgeranyl cysteine]",C,-4,ECO_0000269,"['doi:10.1074/jbc.270.14.7864', 'doi:10.1016/s0021-9258(19)88661-1']",true,CXXX

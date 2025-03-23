@@ -1,0 +1,4 @@
+ID,name,fullName,substrate,location,moiety,AminoAcid,position,evidenceCode,publication,ProteinEntryReviewed,motif,pep,Exp_moiety
+Q15669,RHOH,Rho-related GTP-binding protein RhoH,Rho,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CXXX,LFSINECKIF,S-farnesyl cysteine
+Q8WV99,ZFN2B,AN1-type zinc finger protein 2B,ZFN2B,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CXXX,SSKPSNCSLC,S-farnesyl cysteine
+Q9Y3L5,RAP2C,Ras-related protein Rap-2c,Ras,Membrane,S-geranylgeranyl cysteine,C,-4,ECO_0000250,,True,CAAX,DQCCTTCVVQ,S-farnesyl cysteine

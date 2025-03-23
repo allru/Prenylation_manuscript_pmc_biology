@@ -1,0 +1,17 @@
+SELECT ?primaryAccession
+       ?location_inside_cell
+       ?ProteinEntryReviewed
+
+
+WHERE {
+  ?protein a up:Protein .
+  VALUES ?protein {}
+  BIND(substr(str(?protein), strlen(str(uniprotkb:))+1) AS ?primaryAccession) . 
+
+  OPTIONAL { ?protein up:annotation ?annotation3 .
+             ?annotation3 a up:Subcellular_Location_Annotation;
+			               up:locatedIn/up:cellularComponent ?cellcmpt .
+             ?cellcmpt skos:prefLabel ?location_inside_cell . }
+
+  ?protein up:reviewed ?ProteinEntryReviewed .
+}

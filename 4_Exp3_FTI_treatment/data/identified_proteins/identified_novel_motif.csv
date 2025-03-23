@@ -1,0 +1,19 @@
+ID,name,fullName,substrate,location,moiety,AminoAcid,position,evidenceCode,publication,ProteinEntryReviewed,motif,pep,Exp_moiety
+O43900,PRIC3,Prickle planar cell polarity protein 3,prickle / espinas / testin,Membrane,,,0,,,True,CAAX,QARDKNCIVA,S-farnesyl cysteine
+O95236,APOL3,Apolipoprotein L3,apolipoprotein L,Cytoplasm,,,0,,,True,CXXX,YQRLNPCHTH,S-farnesyl cysteine
+P41567,EIF1,Eukaryotic translation initiation factor 1,SUI1,Cytoplasm,,,0,,,True,internal,,S-farnesyl cysteine
+P52292,IMA1,Importin subunit alpha-1,importin alpha,Membrane,,,0,,,True,internal,,S-farnesyl cysteine
+Q16644,MAPK3,MAP kinase-activated protein kinase 3,CAMK Ser/Thr protein kinase,"['Cytoplasm', 'Nucleus']",,,0,,,True,CXXX,SSASQGCNNQ,S-farnesyl cysteine
+Q27J81,INF2,Inverted formin-2,formin homology,Perinuclear region,,,0,,,True,CAAX,NKTKKLCVIQ,S-farnesyl cysteine
+Q4ADV7,RIC1,Guanine nucleotide exchange factor subunit RIC1,RIC1,Membrane,,,0,,,True,CXXX,QDGTYDCSVS,S-farnesyl cysteine
+Q5SZL2,CE85L,Centrosomal protein of 85 kDa-like,CEP85,Centrosome,,,0,,,True,CXXX,QDMGDNCITQ,S-farnesyl cysteine
+Q8IUC0,KR131,Keratin-associated protein 13-1,PMG,,,,0,,,True,internal,,S-farnesyl cysteine
+Q8IW50,F219A,Protein FAM219A,FAM219,,,,0,,,True,CXXX,ATSSTACHIQ,S-farnesyl cysteine
+Q8N0X7,SPART,Spartin,SPART,"['Cytoplasm', 'Midbody']",,,0,,,True,internal,,S-farnesyl cysteine
+Q8N3D4,EH1L1,EH domain-binding protein 1-like protein 1,EH1L1,Endosome,,,0,,,True,CAAX,LSRRERCVLS,S-farnesyl cysteine
+Q8N5D0,WDTC1,WD and tetratricopeptide repeats protein 1,WDTC1,,,,0,,,True,CXXX,SEGQVQCRPS,S-farnesyl cysteine
+Q8NDI1,EHBP1,EH domain-binding protein 1,EHBP1,Membrane,,,0,,,True,CAAX,AKKEEKCVLQ,S-farnesyl cysteine
+Q969T9,WBP2,WW domain-binding protein 2,WBP2,"['Cytoplasm', 'Nucleus']",,,0,,,True,internal,,S-farnesyl cysteine
+Q96EA4,SPDLY,Protein Spindly,Spindly,"['Centrosome', 'Spindle pole', 'Kinetochore', 'Nucleus']",,,0,,,True,CXXX,STPETQCPQQ,S-farnesyl cysteine
+Q9UI42,CBPA4,Carboxypeptidase A4,peptidase M14,Secreted,,,0,,,True,internal,,S-farnesyl cysteine
+Q9Y3P9,RBGP1,Rab GTPase-activating protein 1,RBGP1,"['Centrosome', 'Cytosol']",,,0,,,True,C,ATGVQGKETC,S-farnesyl cysteine
